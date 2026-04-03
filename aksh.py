@@ -9,7 +9,7 @@ st.title("🤖 Technical Interview Pro")
 # Using OpenRouter as the provider
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="ENTER_OPENAI_KEY",
 )
 
 if "messages" not in st.session_state:
